@@ -1,0 +1,17 @@
+{
+  "name": "autocomplete-input-src",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Source/Build package for autocomplete-input",
+  "author": {
+    "name": "Marty Schlegel",
+    "email": "martin.schlegel.1838@outlook.com"
+  },
+  "license": "MIT AND BSD-3-Clause",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0"
+  }
+}

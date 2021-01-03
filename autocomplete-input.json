@@ -1,0 +1,12 @@
+{
+  "name": "autocomplete-input",
+  "version": "1.0.0",
+  "description": "A generic autocomplete input for HTML pages.",
+  "keywords": ["html", "input", "autocomplete"],
+  "author": {
+    "name": "Marty Schlegel",
+    "email": "martin.schlegel.1838@outlook.com"
+  },
+  "license": "MIT AND BSD-3-Clause",
+  "browser": "autocomplete-input.min.js"
+}
