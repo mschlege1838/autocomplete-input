@@ -8,5 +8,13 @@
     "email": "martin.schlegel.1838@outlook.com"
   },
   "license": "MIT AND BSD-3-Clause",
-  "browser": "autocomplete-input.min.js"
+  "browser": "autocomplete-input.min.js"",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mschlege1838/autocomplete-input"
+  },
+  "bugs": {
+    "url": "https://github.com/mschlege1838/autocomplete-input/issues",
+    "email": "martin.schlegel.1838@outlook.com"
+  }
 }
