@@ -9,8 +9,7 @@ const rename = require('gulp-rename');
 
 
 // Config
-const OUT_DIR = 'autocomplete-input';
-const OUT_PACKAGE = 'autocomplete-input.json';
+const OUT_DIR = 'include';
 
 const OUT_SRC_FILE_NAME = 'autocomplete-input.js';
 const SRC_FILES = [
@@ -107,20 +106,8 @@ function minifyCSS() {
         .pipe(gulp.dest(OUT_DIR));
 }
 
-function copyPackage() {
-    'use strict';
-    
-    return gulp.src(OUT_PACKAGE)
-        .pipe(rename({basename: 'package'}))
-        .pipe(gulp.dest(OUT_DIR));
-}
-
 // Exports
-exports.default = gulp.parallel(
-    gulp.series(
-        gulp.parallel(catSrc, catCSS)
-        , gulp.parallel(minifySrc, minifyCSS)
-    )
-    , copyPackage
-)
-;
+exports.default = gulp.series(
+    gulp.parallel(catSrc, catCSS)
+    , gulp.parallel(minifySrc, minifyCSS)
+);
