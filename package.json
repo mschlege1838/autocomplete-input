@@ -1,6 +1,6 @@
 {
   "name": "@mschlege1838/autocomplete-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },
@@ -25,7 +25,7 @@
     "email": "martin.schlegel.1838@outlook.com"
   },
   "scripts": {
-    "prepack": "gulp"
+    "prepare": "gulp"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
